@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YamahaWebshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Bilder/yamahaLogo.png" alt="yamahaLogo">
+        <h1>Yamaha Webshop</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li>
+                    <a href="#">Categories ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="categories/sportbike.html">Sportbike</a></li>
+                        <li><a href="categories/nakedbike.html">Nakedbike</a></li>
+                        <li><a href="categories/enduro.html">Enduro</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="kontakt-page">
+        <section class="kontakt-info">
+          <h2>Kontakt</h2>
+          <p>Hast du Fragen? Schreib uns gerne über das folgende Formular!</p>
+        </section>
+    
+        <section class="kontakt-formular">
+          <form action="mailto:dein@email.ch" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+    
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required />
+    
+            <label for="betreff">Betreff:</label>
+            <select id="betreff" name="betreff" required>
+              <option value="">Bitte wählen</option>
+              <option value="Produkt">Frage zu einem Motorrad</option>
+              <option value="Allgemein">Allgemeine Anfrage</option>
+            </select>
+    
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+    
+            <button type="submit">Absenden</button>
+          </form>
+        </section>
+      </main>
+    <footer>
+        <div class="footer-container">
+          <div class="social-media">
+            <a href="https://www.instagram.com/yamahamotoreu/" target="_blank">Yamaha auf Instagram</a>
+            <a href="https://www.facebook.com/YamahaMotorEU/" target="_blank">Yamaha auf Facebook</a>
+            <a href="https://www.youtube.com/user/YamahaMotorEurope" target="_blank">Yamaha auf YouTube</a>
+          </div>
+          
+          <div class="legal-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+          </div>
+          
+          <p class="disclaimer">
+            Diese Website ist ein Schulprojekt und steht in keinem Zusammenhang mit Yamaha.  
+            Yamaha® ist eine eingetragene Marke der Yamaha Motor Co., Ltd.
+          </p>
+          
+          <p class="copyright">
+            © 2025 MotoShop Schulprojekt. Alle Rechte vorbehalten.
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
